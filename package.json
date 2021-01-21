@@ -7,9 +7,20 @@
     "build": "next build",
     "start": "next start"
   },
+  "author": {
+    "name": "Joram Mwashighadi",
+    "email": "jomwashighadi@gmail.com"
+  },
   "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-link-error": "^1.1.13",
+    "apollo-link-ws": "^1.0.20",
+    "graphql": "^15.4.0",
+    "graphql-tag": "^2.11.0",
     "next": "10.0.5",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "subscriptions-transport-ws": "^0.9.18"
   }
 }
